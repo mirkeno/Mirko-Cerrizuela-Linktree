@@ -78,6 +78,7 @@ h1{
     width: 90%;
     padding: 20px;
     border-radius: 15px;
+      margin-left: 40%;
   }
 
   .img-principal {
@@ -98,7 +99,7 @@ h1{
   .link {
     font-size: 16px;
     padding: 12px;
-    width: 40%;
+    width: 60%;
   }
 
   body {
