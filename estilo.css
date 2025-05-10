@@ -75,7 +75,7 @@ h1{
 
 @media (max-width: 600px) {
   .container {
-    width: 90%;
+    width: 80%;
     padding: 20px;
     border-radius: 15px;
   }
@@ -98,7 +98,7 @@ h1{
   .link {
     font-size: 16px;
     padding: 12px;
-    width: 100%;
+    width: 80%;
   }
 
   body {
