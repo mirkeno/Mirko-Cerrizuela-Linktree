@@ -1,0 +1,87 @@
+*{
+    margin: 0%;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: 100vh; 
+    background-image: url(img/Fondo\ gradiante.jpg);
+    background-position: center center;
+    background-size: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: "DM Serif Display", serif;
+}
+.container{
+    width: 20%;
+    height: 90vh;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    margin-left: 40%;
+    background-color: rgba(128, 128, 128, 0.423);
+    border-radius: 40px;
+    box-shadow: inset 0 0px 10px 0px;
+    color: #67191f;
+    padding-top: 20px;
+}
+.flex-img{
+    display: flex;
+    justify-content: center;
+}  
+.img-principal{
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    border: 4px solid #eedbbf; 
+    margin-top: 3vh;
+}
+h1{
+    text-align: center;
+    color: #eedbbf;
+    font-size: 30px;
+    margin-top: 2vh;
+     font-family: "Fredericka the Great", serif;
+  
+}
+
+.link{
+    width: 80%;
+    margin-left: 10%;
+    font-size: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 2vh;
+    background-color:#ab3030;
+    border-radius: 15px;
+    border: 2px solid #67191f;
+    color: #eedbbf;   
+    font-family: "DM Serif Display", serif;
+    box-shadow: inset 0 0px 8px;
+    
+}
+.link:hover{
+    background-color: #67191f;
+    transform: scale(1.1);
+    transition-duration: 0.2s;
+
+}
+.marca{
+    text-align: center;
+    font-size: 15px;
+    color: #eedbbf;
+    margin-top: 1vh; 
+    font-family: "DM Serif Display", serif;
+}
+
+@media(max- width: 500px){
+    .container{
+        width: 80%;
+        margin-left: 10%;
+    }
+    .link{
+        margin-top: 4vh;
+    }
+    .h1{
+        margin-top: 4vh;   
+    }
+}
